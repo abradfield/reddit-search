@@ -31,7 +31,7 @@ total = 'total'
 results = {total: 0}
 all_posts = []
 
-# The following was done to refrain from using the following as I felt it was cheating:
+# The following code was implemented to refrain from using the following functionality as I felt it was cheating:
 # https://praw.readthedocs.io/en/stable/code_overview/models/subreddit.html#praw.models.Subreddit.search
 # Increasing the limit will increase the number of Reddit posts that will be returned
 for submission in reddit_client.subreddit(subreddits).new(limit=100):
