@@ -5,3 +5,5 @@ Follow the steps below to run the project:
 - Install required packages with `pip install -r requirements,txt`
 - run `source venv/bin/activate` for *nix machines, `venv\scripts\activate` for Windows to activate the python virtual environment
 - run the project from a command line or terminal with `python main.py`
+
+*Make sure to fill out the authentication fields in the config.json
