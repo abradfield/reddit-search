@@ -1,0 +1,7 @@
+Follow the steps below to run the project:
+- Extract the compressed folder to your desktop (or folder of your choosing)
+- Navigate to the project folder in either a terminal or code editor of your choice
+- Create a virtual env for the project with `python3 -m venv venv`
+- Install required packages with `pip install -r requirements,txt`
+- run `source venv/bin/activate` for *nix machines, `venv\scripts\activate` for Windows to activate the python virtual environment
+- run the project from a command line or terminal with `python main.py`
